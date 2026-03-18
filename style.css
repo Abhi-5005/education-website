@@ -246,3 +246,20 @@ display:grid;
 grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
 gap:20px;
 }
+
+.whatsapp-btn{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 5px 10px rgba(0,0,0,0.3);
+}
+
+.whatsapp-btn:hover{
+background:#128C7E;
+}
